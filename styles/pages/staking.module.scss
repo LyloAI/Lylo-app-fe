@@ -1,0 +1,39 @@
+@import "styles/helpers/vars";
+@import "styles/helpers/mixins";
+
+.page {
+  padding: 130px 0 120px;
+  min-height: 100vh;
+  background: url('/img/pages/staking/bg.png') no-repeat top center / cover;
+  @include media($phone) {
+    padding: 80px 0;
+  }
+}
+
+.title {
+  margin: 0;
+  text-align: center;
+  font-size: 3.875rem;
+  line-height: 1.05;
+  font-weight: 600;
+  letter-spacing: -.4px;
+  @include media($phone) {
+    font-size: 2.25rem;
+  }
+}
+
+.grid {
+  margin-top: 70px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+  @include media($laptop) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  @include media($phablet) {
+    grid-template-columns: 1fr;
+  }
+  @include media($phone) {
+    margin-top: 32px;
+  }
+}

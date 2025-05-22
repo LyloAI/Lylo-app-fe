@@ -1,0 +1,26 @@
+@import "styles/helpers/vars";
+@import "styles/helpers/mixins";
+
+.label {
+	font-size: .75rem;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	gap: 8px;
+}
+
+.loader {
+	width: 16px;
+	height: 16px;
+	font-size: 0;
+	animation: loading .75s linear infinite;
+}
+
+@keyframes loading {
+	0% {
+		transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(-360deg);
+	}
+}

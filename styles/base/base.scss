@@ -1,0 +1,33 @@
+/* Base Elements */
+
+html {
+  line-height: 1.5;
+  font-weight: 400;
+  scroll-behavior: smooth;
+}
+
+body {
+  color: var(--body-color);
+  font-family: var(--font-main);
+  font-size: 1rem;
+  -webkit-font-smoothing: antialiased;
+  background-color: var(--body-bg);
+  position: relative;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+.wrap {
+  width: 100%;
+  max-width: 1472px;
+  padding-inline: 32px;
+  margin-inline: auto;
+  @include media($laptop-small) {
+    padding-inline: 24px;
+  }
+  @include media($phablet) {
+    padding-inline: 16px;
+  }
+}

@@ -1,0 +1,25 @@
+@import "styles/helpers/vars";
+@import "styles/helpers/mixins";
+
+.page {
+  position: relative;
+  &:before, &:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  &:before {
+    z-index: -2;
+    background: url('/img/pages/home/bg-reflex-min.png') no-repeat center top,
+    url('/img/pages/home/bg-circles.png') no-repeat center top 380px;
+  }
+  &:after {
+    z-index: -1;
+    background: url('/img/pages/home/bg-noise-min.png') no-repeat center top;
+    background-blend-mode: overlay;
+    opacity: .2;
+  }
+}

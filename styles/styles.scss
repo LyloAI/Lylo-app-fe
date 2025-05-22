@@ -1,0 +1,66 @@
+:root {
+  /* === === === === === */
+  /* COLORS */
+  /* === === === === === */
+  /* Main Colors */
+  --white: #FFF;
+  --white-rgb: 255, 255, 255;
+  --black: #000;
+  --black-rgb: 0, 0, 0;
+  --blue: #3CA0FF;
+
+  --text-primary: #F9F7F5;
+  --text-secondary: #ACB0BA;
+  --text-tetriary: #858A96;
+  --text-disabled: #5C5D5E;
+
+  /* Elements */
+  --body-bg: #07070E;
+  --body-color: var(--text-primary);
+
+  --bg-default: #1A1C1E;
+
+  /* Socials Colors */
+  --social-facebook: #4352A2;
+  --social-messenger: #00B2FF;
+  --social-telegram: #0088CC;
+  --social-linkedin: #2867B2;
+  --social-twitter: #0A99FD;
+  --social-google: #DD4B39;
+  --social-instagram: #E1306C;
+  --social-youtube: #FD0000;
+  --social-viber: #7360F2;
+  --social-pinterest: #E60023;
+  --social-tiktok: #4BE1EC;
+  --social-reddit: #FF4500;
+  --social-pocket: #EF4056;
+  --social-rss: #EA6221;
+
+  /* === === === === === */
+  /* SETTINGS */
+  /* === === === === === */
+
+  /* Transitions */
+  --transition: all .25s ease-in-out;
+  --transition-long: all .45s ease-in-out;
+  --cubic-bezier: all .6s cubic-bezier(0.68, 0, 0.265, 1);
+  --ease-quint-out: cubic-bezier(0.23, 1, 0.32, 1);
+  --animation-primary: 0.4s cubic-bezier(.85, 0, .15, 1);
+  --animation-smooth: 0.6s cubic-bezier(.5, 0, .25, 1);
+
+}
+
+/* Helpers */
+@import "./helpers/vars";
+@import "./helpers/mixins";
+
+/* Libs */
+@import "normalize.css/normalize";
+
+/* Base */
+@import "./base/fonts";
+@import "./base/base";
+
+/* Common */
+@import "./common/utilities";
+@import "./common/libraries";

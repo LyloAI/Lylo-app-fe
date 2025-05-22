@@ -1,0 +1,44 @@
+<svg width="88" height="88" viewBox="0 0 88 88" fill="none" xmlns="http://www.w3.org/2000/svg">
+<foreignObject x="-83.6246" y="-94.0372" width="255.252" height="241.44"><div xmlns="http://www.w3.org/1999/xhtml" style="backdrop-filter:blur(54.65px);clip-path:url(#bgblur_0_21_484_clip_path);height:100%;width:100%"></div></foreignObject><g filter="url(#filter0_ii_21_484)" data-figma-bg-blur-radius="109.3">
+<path d="M33.8199 38.1022C32.6614 37.5849 31.5491 36.9827 30.4918 36.3024C18.881 28.8312 30.1947 15.2633 44.0015 15.2633C57.8084 15.2633 69.122 28.8312 57.5113 36.3024C56.454 36.9827 55.3417 37.5849 54.1832 38.1022C51.2535 36.1959 47.7564 35.0875 44.0006 35.0875C40.2452 35.0876 36.7493 36.1962 33.8199 38.1022Z" fill="#FF6B27"/>
+</g>
+<foreignObject x="2.38841" y="7.38817" width="83.2243" height="83.2243"><div xmlns="http://www.w3.org/1999/xhtml" style="backdrop-filter:blur(8.31px);clip-path:url(#bgblur_1_21_484_clip_path);height:100%;width:100%"></div></foreignObject><g filter="url(#filter1_ii_21_484)" data-figma-bg-blur-radius="16.6126">
+<circle cx="44.0006" cy="49.0003" r="24.9996" transform="rotate(180 44.0006 49.0003)" fill="white" fill-opacity="0.03"/>
+</g>
+<defs>
+<filter id="filter0_ii_21_484" x="-83.6246" y="-94.0372" width="255.252" height="241.44" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="4.65108"/>
+<feGaussianBlur stdDeviation="2.32554"/>
+<feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+<feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.15 0"/>
+<feBlend mode="normal" in2="shape" result="effect1_innerShadow_21_484"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset/>
+<feGaussianBlur stdDeviation="39.5342"/>
+<feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+<feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.05 0"/>
+<feBlend mode="normal" in2="effect1_innerShadow_21_484" result="effect2_innerShadow_21_484"/>
+</filter>
+<clipPath id="bgblur_0_21_484_clip_path" transform="translate(83.6246 94.0372)"><path d="M33.8199 38.1022C32.6614 37.5849 31.5491 36.9827 30.4918 36.3024C18.881 28.8312 30.1947 15.2633 44.0015 15.2633C57.8084 15.2633 69.122 28.8312 57.5113 36.3024C56.454 36.9827 55.3417 37.5849 54.1832 38.1022C51.2535 36.1959 47.7564 35.0875 44.0006 35.0875C40.2452 35.0876 36.7493 36.1962 33.8199 38.1022Z"/>
+</clipPath><filter id="filter1_ii_21_484" x="2.38841" y="7.38817" width="83.2243" height="83.2243" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="0.772677"/>
+<feGaussianBlur stdDeviation="0.386339"/>
+<feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+<feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.15 0"/>
+<feBlend mode="normal" in2="shape" result="effect1_innerShadow_21_484"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset/>
+<feGaussianBlur stdDeviation="6.56776"/>
+<feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+<feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.05 0"/>
+<feBlend mode="normal" in2="effect1_innerShadow_21_484" result="effect2_innerShadow_21_484"/>
+</filter>
+<clipPath id="bgblur_1_21_484_clip_path" transform="translate(-2.38841 -7.38817)"><circle cx="44.0006" cy="49.0003" r="24.9996" transform="rotate(180 44.0006 49.0003)"/>
+</clipPath></defs>
+</svg>

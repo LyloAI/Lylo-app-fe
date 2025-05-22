@@ -1,0 +1,45 @@
+@import "styles/helpers/vars";
+@import "styles/helpers/mixins";
+
+.block {
+  font-size: 1.25rem;
+  line-height: 1.6;
+  color: var(--text-secondary);
+  opacity: 0;
+  translate: 0 16px;
+  transition: var(--animation-smooth);
+  &.inView {
+    opacity: 1;
+    translate: 0 0;
+    [class="word"] {
+      opacity: 1;
+    }
+  }
+  &.noFade {
+    opacity: 1;
+    translate: 0 0;
+  }
+  &.tac {
+    text-align: center;
+  }
+  b, strong {
+    font-weight: 700;
+    color: var(--text-primary);
+  }
+  p {
+    margin: 0 0 32px;
+  }
+  a {
+    color: var(--text-primary);
+    text-decoration-line: underline;
+    &:hover {
+      text-decoration-color: transparent;
+    }
+  }
+  & > *:last-child {
+    margin-bottom: 0 !important;
+  }
+  @include media($phablet) {
+    font-size: 1rem;
+  }
+}

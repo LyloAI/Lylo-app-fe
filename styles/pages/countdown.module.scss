@@ -1,0 +1,25 @@
+@import "styles/helpers/vars";
+@import "styles/helpers/mixins";
+
+.countdown {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  font-family: var(--font-secondary);
+  font-size: 2rem;
+  line-height: 1;
+  font-weight: 300;
+  color: var(--text-primary);
+}
+
+.countdownValue {
+  position: relative;
+  &:after {
+    display: block;
+    content: attr(data-word);
+    font-size: .75rem;
+    color: var(--body-color);
+    text-transform: uppercase;
+  }
+}

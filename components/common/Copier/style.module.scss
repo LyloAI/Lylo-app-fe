@@ -1,0 +1,47 @@
+@import "styles/helpers/vars";
+@import "styles/helpers/mixins";
+
+.btn {
+	padding: 0;
+	border: 0;
+	outline: none;
+	background-color: transparent;
+	color: #9EA8BD;
+	display: inline-flex;
+	align-items: center;
+	justify-content: flex-start;
+	cursor: pointer;
+	&:hover svg {
+		opacity: 1;
+	}
+	&.noStyles {
+		span {
+			font-weight: initial;
+			font-size: initial;
+			background-color: transparent;
+			border-radius: unset;
+			padding: unset;
+			margin-right: 12px;
+		}
+	}
+	span {
+		font-weight: 300;
+		font-size: .875rem;
+		border-radius: 4px;
+		margin-right: 8px;
+	}
+	svg {
+		opacity: .3;
+		transition: var(--transition);
+	}
+}
+
+.tooltip span {
+	display: inline-block;
+	font-size: .75rem;
+	padding: 4px 8px;
+	background: linear-gradient(45deg, #14161B, #0A0C10) padding-box,
+	linear-gradient(to bottom, #22252C, #14151B) border-box;
+	border: 1px solid transparent;
+	border-radius: 6px;
+}

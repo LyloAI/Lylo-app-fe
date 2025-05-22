@@ -1,0 +1,61 @@
+@import "styles/helpers/vars";
+@import "styles/helpers/mixins";
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  cursor: pointer;
+  font-family: var(--font-secondary);
+  font-size: .875rem;
+  font-weight: 500;
+  color: #07070E;
+  border: 0;
+  padding: 1px 24px 0;
+  background-color: #F9F7F5;
+  height: 36px;
+  border-radius: 100px;
+  min-width: 0;
+  min-height: 0;
+  position: relative;
+  z-index: 1;
+  transition: var(--transition);
+  &:hover {
+    background-color: var(--text-secondary);
+  }
+
+  &.sizeXS {
+
+  }
+
+  &.sizeSM {
+
+  }
+
+  &.sizeLG {
+    height: 52px;
+    padding-inline: 36px;
+  }
+
+  &.isSecondary {
+    background-color: transparent;
+    border: 1px solid #F2F6FF;
+    color: #F2F6FF;
+    &:hover {
+      border-color: var(--text-secondary);
+      color: var(--text-secondary);
+    }
+  }
+
+  &.isDisabled {
+    pointer-events: none;
+    cursor: default;
+    opacity: .3;
+  }
+
+}
+
+.spinner {
+  margin-right: 4px;
+}

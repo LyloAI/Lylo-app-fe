@@ -1,0 +1,23 @@
+@import "styles/helpers/vars";
+@import "styles/helpers/mixins";
+
+.tooltip {
+  display: inline-block;
+  font-size: 0;
+  translate: 0 1px;
+  &:hover img {
+    opacity: 1;
+  }
+  img {
+    opacity: .5;
+    transition: var(--transition);
+  }
+}
+
+.content {
+  max-width: 260px;
+  background-color: #212329;
+  padding: 8px 12px;
+  border-radius: 8px;
+  text-align: left;
+}

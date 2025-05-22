@@ -1,0 +1,25 @@
+body {
+  .react-tooltip {
+    z-index: 9999;
+    &.no-styles {
+      --rt-opacity: 1;
+      background: transparent;
+      color: inherit;
+      padding: 0;
+      border-radius: 0;
+      font-size: inherit;
+    }
+  }
+
+  .toast-block {
+    a {
+      color: transparent;
+      background-clip: text;
+      background-image: linear-gradient(100.51deg, #3CA0FF 27.61%, #3CA0FF 113.78%);
+      transition: var(--transition);
+      &:hover {
+        background-image: linear-gradient(100.51deg, #92CAFF 27.61%, #3CA0FF 113.78%);
+      }
+    }
+  }
+}
